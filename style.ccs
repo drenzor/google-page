@@ -1,0 +1,16 @@
+nav {
+    text-align: right;
+}
+main {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+footer {
+    background-color: lightgray;
+    align-content: bottom;
+}
+
+.right {
+    text-align: right
+}
