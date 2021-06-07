@@ -1,5 +1,19 @@
-nav {
-    text-align: right;
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+}
+.nav-icons {
+    float: right;
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 main {
     padding-top: 100px;
@@ -13,9 +27,4 @@ footer {
 
 .right {
     text-align: right;
-}
-
-img.nav-icons {
-    width: 32px;
-    height: 32px;
 }
