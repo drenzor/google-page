@@ -23,8 +23,14 @@ main {
 }
 input#search-box {
     border-radius: 50px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 400px;
 }
 footer {
+    position: relative;
+    bottom: 0px;
     background-color: lightgray;
     align-content: bottom;
 }
