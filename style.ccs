@@ -12,10 +12,10 @@ footer {
 }
 
 .right {
-    text-align: right
+    text-align: right;
 }
 
-.nav-icons {
-    width: 32 px
-    height: 32 px
+img.nav-icons {
+    width: 32px;
+    height: 32px;
 }
