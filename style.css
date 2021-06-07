@@ -1,15 +1,16 @@
-.nav-items {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.nav-links {
+li a {
     float: right;
     display: block;
     text-align: center;
     padding: 14px 14px;
 }
-.nav-icons {
+li img {
+    border-radius: 50px;
     float: right;
     width: 32px;
     height: 32px;
@@ -19,6 +20,9 @@ main {
     padding-top: 100px;
     text-align: center;
     padding-bottom: 100px;
+}
+input#search-box {
+    border-radius: 50px;
 }
 footer {
     background-color: lightgray;
