@@ -1,3 +1,6 @@
+:root {--screen-height: screen.height;}
+
+html{height: var(--screen-height, auto);}
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,9 +35,12 @@ footer {
     position: relative;
     bottom: 0px;
     background-color: lightgray;
-    align-content: bottom;
+    vertical-align: bottom;
 }
 
-.right {
-    text-align: right;
-}
+.right {text-align: right;} /*.right is the elements on the right side of the footer*/
+.nav-icons:active {opacity: 0.5;}
+
+.search-buttons {border: none;}
+input.search-buttons:hover {border: grey;}
+input.search-buttons:active {border: blue;}
