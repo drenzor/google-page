@@ -38,14 +38,13 @@ main {
 input#search-box {
     border-radius: 50px;
     border-color: rgba(0,0,0,0.3);
-    background-image: url('images/search-icon-small.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
     margin-top: 50px;
     margin-bottom: 25px;
     width: 570px;
+    background-image: url('../images/search-icon-small.png');
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
 }
 input.search-buttons {border: none; padding: 10px 20px; margin: 0px 10px 20px 10px;}
 input.search-buttons:link {border: none;}
